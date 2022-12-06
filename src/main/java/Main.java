@@ -5,6 +5,6 @@ public class Main {
     public static void main(String[] args) {
         SQRService service = new SQRService();
         int counter = 0;
-        System.out.println(service.calcSQR(counter));
+        System.out.println(service.calcSQR(200,300));
     }
 }
